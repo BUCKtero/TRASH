@@ -1,1 +1,1 @@
-# TRASH
+Some Trash Items
