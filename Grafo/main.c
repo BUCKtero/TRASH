@@ -2,14 +2,13 @@
 #include "grafo.h"
 
 int main() {
-    printf("Hello, World!\n");
     Grafo *g;
-    Aresta i;
- GRAFOvazio(g);
- GRAFO_get_num_aresta(g);
- GRAFO_get_num_vertice(g);
- GRAFOinsere_aresta(g, i);
-GRAFOremove_aresta(g, i);
+    g = GRAFOconstroi(7);
+    printf("%d\n", GRAFOvazio(g));
+    printf("%d\n", GRAFO_get_num_aresta(g));
+    printf("%d\n", GRAFO_get_num_vertice(g));
+    GRAFOinsere_aresta(g,1,2);
+    printf("%d\n", GRAFO_get_num_aresta(g));
     GRAFOimprime(g);
     GRAFOdestroi(g);
     return 0;

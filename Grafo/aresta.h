@@ -1,6 +1,3 @@
-//
-// Created by nayr on 10/2/22.
-//
 
 #ifndef GRAFO_ARESTA_H
 #define GRAFO_ARESTA_H
